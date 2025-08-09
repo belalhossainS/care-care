@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4 {
+  @apply font-semibold;
+}
+.bg-gradient-header {
+  background: linear-gradient(to right, #0f172a 50%, #ee3131 50%);
+}
+/* Default styles for mobile devices */
+.bg-gradient-testimonial {
+  background-color: #f1f5f9; /* Or any other default background color for mobile */
+}
+
+/* Styles for larger devices (desktop) */
+@media (min-width: 1024px) {
+  .bg-gradient-testimonial {
+    background: linear-gradient(to right, #0f172a 50%, #f1f5f9 50%);
+  }
+}
+
+.header-shape {
+  transform: rotate(20deg);
+  right: 0;
+}
+
+.stoke-number {
+  margin: 0;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #000;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #cbd5e1;
+}
+
+.signInUp-input {
+  @apply w-full border-b border-slate-300 py-2 transition-all  focus:transition-all text-lg focus:border-primary outline-none;
+}
+.socialLogin {
+  @apply flex gap-2 px-5 py-2  rounded-lg font-semibold items-center justify-center;
+}
+
+.modal-input {
+  @apply w-full px-4 py-1.5 border border-slate-300 rounded-md shadow-sm transition duration-300 ease-in-out transform focus:-translate-y-1 hover:shadow-lg hover:border-primary bg-slate-50   focus:outline-primary/70;
+}
+.modal-label {
+  @apply block  text-sm font-semibold mb-1;
+}
+.title-shadow {
+  @apply shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)];
+}
+.table-shadow {
+  @apply shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)];
+}
+/* ------------------------------------- */
+
+/* css glass effect  */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+/* From https://css.glass */
+/* background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3); */
+
+.input {
+  max-width: 190px;
+  display: none;
+}
+
+.labelFile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  text-align: center;
+  padding: 4px;
+  cursor: pointer;
+}
+/* dashboard style css  */
+.ant-layout-sider {
+  min-width: 250px !important;
+}
+.ant-layout-sider-collapsed {
+  min-width: 80px !important;
+}
+.ant-menu-item-selected {
+  background-color: #ee3131 !important;
+  border-radius: 4px !important;
+}
+.ant-menu-item,
+.ant-menu-title-content {
+  border-radius: 4px !important;
+  font-size: 16px !important;
+  text-transform: capitalize !important;
+}
+.ant-menu-item-icon {
+  font-size: 20px !important;
+}
+.ant-btn-primary {
+  background-color: #ee3131 !important;
+  border-color: #ee3131 !important;
+  color: #ffff;
+}
+.custom-breadcrumb .ant-breadcrumb-separator {
+  color: #ffffff; /* Change this to your desired separator color */
+}
+
+.custom-breadcrumb-item {
+  color: #ffffff; /* Custom color for breadcrumb items */
+}
+
+/* .ant-select-selector:hover {
+  border-color: #ee3131 !important;
+}
+.ant-select-selection-search-input {
+  border-color: #ee3131 !important;
+} */
+
+/* --------------------------------- */
+/* ServiceFAQs.css */
+.custom-collapse .ant-collapse-item-active .ant-collapse-header {
+  color: #ee3131; /* Change this color to your preferred active label color */
+  font-size: 1.2rem; /* Adjust the size as needed */
+}
+.ant-collapse-header {
+  font-size: 1rem; /* Adjust the size as needed */
+}
+
+/* ------------------------ */
+.form-input {
+  @apply w-full px-2 py-3 rounded-sm  text-lg text-slate-900 focus:outline-none  focus:ring-1 focus:ring-primary;
+}
