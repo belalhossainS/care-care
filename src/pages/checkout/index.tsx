@@ -83,6 +83,8 @@ const CheckoutPage = () => {
 
   return (
     <>
+    
+    <button onClick={()=> window.print()}>Print</button>
       {isLoading && <GlobalLoader />}
       <div>
         <div className="shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] container mx-auto px-[10%] py-6 text-xl">
@@ -152,7 +154,7 @@ const CheckoutPage = () => {
               </p>
               <p className="grid grid-cols-2">
                 <span>End Time</span>
-                <span className="border-b border-dashed border-slate-300 w-fit">
+              <span className="border-b border-dashed border-slate-300 w-fit">
                   : {dayjs(endTime, "HH:mm").format("hh:mm A") || "N/A"}
                 </span>
               </p>
@@ -170,10 +172,13 @@ const CheckoutPage = () => {
             </Link>
           </aside>
           <aside className="col-span-7 md:ml-20">
+            
             <form
               onSubmit={handleSubmit(onSubmit)}
               className="space-y-4 py-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-md"
             >
+              
+              <button className="text"  onClick={() => window.print()}>Print</button>
               <h5 className="text-lg font-[500] mb-4 border-b border-slate-300 px-3">
                 Customer Info:
               </h5>

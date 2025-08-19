@@ -125,7 +125,7 @@ const ServiceDetails = () => {
           ) : (
             <>
               <img src={coverImage} alt={name} />
-              <p className="mt-6 hidden md:block">
+              <p className="">
                 {description} Lorem ipsum, dolor sit amet consectetur
                 adipisicing elit. Excepturi quisquam debitis quia aperiam
                 doloribus nostrum perspiciatis vitae nisi, laudantium

@@ -2,7 +2,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 export const socialProfileLinks = [
   {
     icon: <FaFacebook />,
-    url: "#",
+    url: "facebook.com",
   },
   {
     icon: <FaInstagram />,
@@ -15,6 +15,6 @@ export const socialProfileLinks = [
   },
   {
     icon: <FaLinkedin />,
-    url: "#",
+    url: "facebook.com",
   },
 ];
