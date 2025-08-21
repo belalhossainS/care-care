@@ -24,7 +24,7 @@ const Top = () => {
             <h2 className="flex items-center gap-1 text-primary uppercase  font-[500]">
               <FaRegEnvelope size={22} /> <span> Send us a Mail</span>
             </h2>
-            <p className="text-sm">info@autocare.com</p>
+            <p className="text-sm">mdbelal01792@gmail.com</p>
           </div>
           <div className="py-2 hidden md:block">
             <h2 className="flex items-center gap-1 text-primary uppercase  font-[500]">

@@ -35,7 +35,7 @@ const TestimonialSliders = () => {
                   </div>
                   <div className="-space-y-1">
                     <h6 className="font-semibold">{item.user.name}</h6>
-                    <p>Developer</p>
+                    <p>User</p>
                   </div>
                 </div>
               </div>

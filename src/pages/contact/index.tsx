@@ -115,7 +115,7 @@ const ContactUsPage = () => {
               </div>
               <aside className="flex flex-col">
                 <h4 className="uppercase">Email</h4>
-                <p>info@autocare.com</p>
+                <p>mdbelal01792@gmail.com</p>
               </aside>
             </div>
             <div className="flex items-start gap-4">
@@ -124,7 +124,7 @@ const ContactUsPage = () => {
               </div>
               <aside className="flex flex-col">
                 <h4 className="uppercase">Email</h4>
-                <p>info@autocare.com</p>
+                <p>mdbelal01792@gmail.com</p>
               </aside>
             </div>
             <div className="flex items-center gap-4">

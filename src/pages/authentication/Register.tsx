@@ -91,7 +91,7 @@ const Register = ({ setSignInPage, signInPage }: RegisterProps) => {
             required: "Email is required",
             pattern: {
               value: /^\S+@\S+$/i,
-              message: "Please enter a valid email address",
+              message: "Please enter a valid email ",
             },
           })}
           placeholder="Email Address"

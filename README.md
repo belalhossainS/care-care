@@ -86,12 +86,12 @@
 
   - React, Redux Toolkit, TypeScript, Ant Design, Tailwind CSS
   - **Live Demo**: [AutoCare - Car Washing Services](https://autocare-client.vercel.app/)
-  - **Client Repository**: [GitHub - AutoCare Client](https://github.com/mahamudulhasan-me/autocare-client.git)
+  
 
-- **Backend**:
+- ****:
 
   - Node.js, Express.js, MongoDB, JWT for Authentication
-  - **Server Repository**: [GitHub - AutoCare Server](https://github.com/mahamudulhasan-me/car-washing-system.git)
+  
 
 - **Payment Gateway**:
 
@@ -174,7 +174,7 @@
 
 ## Deployment
 
-Both the frontend and backend of this project are deployed on **Vercel**. Ensure that environment variables are correctly configured in the Vercel dashboard for both deployments to run smoothly.
+Both the frontend and  of this project are deployed on **Vercel**. Ensure that environment variables are correctly configured in the Vercel dashboard for both deployments to run smoothly.
 
 
 
